@@ -8,7 +8,7 @@ if version > 580
   endif
 endif
 
-let g:colors_name = "nord"
+let g:colors_name = "nord_dark"
 let s:nord_vim_version="0.19.0"
 set background=dark
 
@@ -17,7 +17,7 @@ let s:nord1_gui = "#3B4252"
 let s:nord2_gui = "#434C5E"
 let s:nord3_gui = "#4C566A"
 let s:nord3_gui_bright = "#616E88"
-let s:nord4_gui = "#D8DEE9"
+let s:nord4_gui = "#B2B8C3"
 let s:nord5_gui = "#E5E9F0"
 let s:nord6_gui = "#ECEFF4"
 let s:nord7_gui = "#8FBCBB"
