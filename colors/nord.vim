@@ -12,7 +12,7 @@ let g:colors_name = "nord"
 let s:nord_vim_version="0.19.0"
 set background=dark
 
-let s:nord0_gui = "#2E3440"
+let s:nord0_gui = "NONE"
 let s:nord1_gui = "#3B4252"
 let s:nord2_gui = "#434C5E"
 let s:nord3_gui = "#4C566A"
@@ -569,7 +569,7 @@ if has('nvim')
     call s:hi("LspDiagnosticsUnderlineInformation" , s:nord8_gui, "", s:nord8_term, "", "undercurl", "")
     call s:hi("LspDiagnosticsUnderlineHint" , s:nord10_gui, "", s:nord10_term, "", "undercurl", "")
   endif
-  
+
   " Gitsigns
   " > lewis6991/gitsigns.nvim
   hi! link GitSignsCurrentLineBlame Comment
@@ -708,7 +708,7 @@ hi! link pandocSimpleTableHeader pandocAtxHeader
 hi! link pandocStrong markdownBold
 hi! link pandocTableHeaderWord pandocAtxHeader
 hi! link pandocUListItemBullet Operator
-  
+
 if has('nvim')
   " tree-sitter
   " > nvim-treesitter/nvim-treesitter
