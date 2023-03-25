@@ -215,7 +215,8 @@ call s:hi("Directory", s:nord8_gui, "", s:nord8_term, "NONE", "", "")
 
 "+--- Prompt/Status ---+
 call s:hi("EndOfBuffer", s:nord1_gui, "", s:nord1_term, "NONE", "", "")
-call s:hi("ErrorMsg", s:nord4_gui, s:nord11_gui, "NONE", s:nord11_term, "", "")
+" call s:hi("ErrorMsg", s:nord4_gui, s:nord11_gui, "NONE", s:nord11_term, "", "")
+call s:hi("ErrorMsg", s:nord11_gui, s:nord0_gui, "NONE", s:nord11_term, "", "")
 call s:hi("ModeMsg", s:nord4_gui, "", "", "", "", "")
 call s:hi("MoreMsg", s:nord8_gui, "", s:nord8_term, "", "", "")
 call s:hi("Question", s:nord4_gui, "", "NONE", "", "", "")
